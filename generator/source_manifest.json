@@ -1,0 +1,29 @@
+{
+  "project": "Customer Complaint Management and SLA Tracking System",
+  "phase": 8,
+  "seed": 20261022,
+  "valid_dataset_pipeline": "generator.phase8.generate_complete_dataset",
+  "anomalies_are_separate": true,
+  "ground_truth_is_evaluation_only": true,
+  "generator_modules": [
+    "generator/customers.py",
+    "generator/products.py",
+    "generator/orders.py",
+    "generator/complaints.py",
+    "generator/agents.py",
+    "generator/assignments.py",
+    "generator/messages.py",
+    "generator/slas.py",
+    "generator/sla_events.py",
+    "generator/resolutions.py",
+    "generator/surveys.py",
+    "generator/phase6.py",
+    "generator/phase7.py",
+    "generator/phase8.py",
+    "generator/validation.py",
+    "generator/anomalies.py",
+    "generator/ground_truth.py",
+    "generator/export.py"
+  ],
+  "export_checksum_manifest": "data/generated/checksums.sha256.json"
+}
